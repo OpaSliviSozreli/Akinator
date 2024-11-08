@@ -1,0 +1,16 @@
+digraph G{
+rankdir = TB;
+graph [bgcolor = white];
+	node0064FEF4 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node00690D90 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node00690DA8 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node00690DD8 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node00690DF0 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node00690E08 [shape=record, style = filled, fillcolor = lightgreen, fontsize = 16, fontname = "times bold", label = "{<f0> data = 0  |{<f1> Left | <f2> Right}} "];
+	node0064FEF4:<f1> -> node00690D90:<f0> [weight = 52; color = "#1D638B";];
+	node0064FEF4:<f2> -> node00690DA8:<f0> [weight = 52; color = "#1D638B";];
+	node00690DA8:<f2> -> node00690DD8:<f0> [weight = 52; color = "#1D638B";];
+	node00690DD8:<f2> -> node00690DF0:<f0> [weight = 52; color = "#1D638B";];
+	node00690DF0:<f2> -> node00690E08:<f0> [weight = 52; color = "#1D638B";];
+
+}
